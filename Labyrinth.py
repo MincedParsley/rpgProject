@@ -82,8 +82,8 @@ def Game():
 	crit = 0
 	gold = 500
 	selection = 'nothing'
-	selection = input("Select your character's role [Knight, Assassin, Brawler, Mage, Necromancer]: ")
-	while selection == "nothing":
+	selection = input('Select your character's role [Knight, Assassin, Brawler, Mage, Necromancer]: ')
+	while selection == 'nothing':
 		charClass(selection)
 		print(selection)
 	
