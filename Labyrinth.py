@@ -5,6 +5,8 @@ Menu = True
 gameStart = False
 instructionStart = False
 aboutStart = False
+global selection
+
 """ This is the "about" page; essentially a credits page """
 def About():
 	leaveAbout = False
